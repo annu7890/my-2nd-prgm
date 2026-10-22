@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main ()
+{
+    int day;
+    printf("enter day number(1-3):");
+    scanf("%d", &day);
+    switch(day)
+    {
+        case1:
+        printf("monday");
+        break;
+
+        case2:
+        printf("tuesday");
+        break;
+        case3:
+        printf("wednesday");
+
+    }
+    return0;
+}
